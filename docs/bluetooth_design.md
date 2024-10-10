@@ -110,13 +110,13 @@ on both the Hosted Master and Slave.
 
 ```mermaid
 sequenceDiagram
-    box Grey Hosted Master
+    box rgb(0, 128, 128) Hosted Master
     participant ble as NimBLE Host Bluetooth Stack
     participant vhci as VHCI Driver
     participant master as SPI/SDIO Interface
     end
 
-    box Grey Hosted Slave
+    box rgb(0, 128, 128) Hosted Slave
     participant sinterface as SPI/SDIO Interface
     participant slave as Bluetooth Controller
     end
@@ -136,13 +136,13 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    box Grey Hosted Master
+    box rgb(0, 128, 128) Hosted Master
     participant ble as NimBLE Host Bluetooth Stack
     participant vhci as VHCI Driver
     participant master as SPI/SDIO Interface
     end
 
-    box Grey Hosted Slave
+    box rgb(0, 128, 128) Hosted Slave
     participant sinterface as SPI/SDIO Interface
     participant slave as Bluetooth Controller
     end
@@ -166,13 +166,13 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    box Grey Hosted Master
+    box rgb(0, 128, 128) Hosted Master
     participant ble as NimBLE Host Bluetooth Stack
     participant vhci as VHCI Driver
     participant master as SPI/SDIO Interface
     end
 
-    box Grey Hosted Slave
+    box rgb(0, 128, 128) Hosted Slave
     participant sinterface as SPI/SDIO Interface
     participant slave as Bluetooth Controller
     end
@@ -206,12 +206,12 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    box Grey Master
+    box rgb(0, 128, 128)  Master
     participant ble as NimBLE Host Bluetooth Stack
     participant huart as UART Driver
     end
 
-    box Grey Slave
+    box rgb(0, 128, 128) Slave
     participant slave as Bluetooth Controller with UART Interface
     end
 
@@ -230,12 +230,12 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    box Grey Master
+    box rgb(0, 128, 128) Master
     participant ble as NimBLE Host Bluetooth Stack
     participant huart as UART Driver
     end
 
-    box Grey Slave
+    box rgb(0, 128, 128) Slave
     participant slave as Bluetooth Controller with UART Interface
     end
 
@@ -252,12 +252,12 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-    box Grey Master
+    box rgb(0, 128, 128) Master
     participant ble as NimBLE Host Bluetooth Stack
     participant huart as UART Driver
     end
 
-    box Grey Slave
+    box rgb(0, 128, 128) Slave
     participant slave as Bluetooth Controller with UART Interface
     end
 
