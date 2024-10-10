@@ -35,14 +35,14 @@ encapsulates the data for transport.
 
 ```mermaid
 sequenceDiagram
-    box rgb(0, 128, 128) Host with ESP-Hosted
+    box rgb(128, 128, 128) Host with ESP-Hosted
     participant app as Application
     participant remote as Wi-Fi Remote
     participant hostedh as ESP-Hosted
     participant transporth as Host Transport
     end
 
-    box rgb(0, 128, 128) Slave ESP-Hosted
+    box rgb(128, 128, 128) Slave ESP-Hosted
     participant transports as Slave Transport
     participant hosteds as Slave Hosted
     participant api as ESP-IDF Wi-Fi Library
